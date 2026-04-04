@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-const fakeDb = require('./db/fakeDb');
+let fakeDb = require('./db/fakeDb');
 
 // mids
 app.use(express.json());
@@ -15,32 +15,59 @@ app.get('/', (req, res) => {
     res.render('home');
 });
 
-app.get('/items', (req, res) => {
-    const items = [...fakeDb];
+app.get('/items', async (req, res) => {
+    const items = await fakeDb.getAll();
+
     return res.json(items);
 });
 
-app.post('/items', (req, res) => {
-    const items = req.body;
-    fakeDb.push(items);
-    const message = {
-        added: items
-    };
-    return res.json(message);
-});
-
-app.get('/items/:name', (req, res) => {
+app.get('/items/:name', async (req, res) => {
     const name = req.params.name;
-    const item = fakeDb.find(n => n.name === name);
+    const item = await fakeDb.get(name);
+
     return res.json(item);
 });
 
-app.patch('/items/:name', (req, res) => {
+app.post('/items', async (req, res) => {
+    const item = req.body;
+    await fakeDb.create(item);
+    const message = {
+        added: item
+    };
 
+    return res.json(message);
 });
 
-app.delete('/items/:name', (req, res) => {
+app.patch('/items/:name', async (req, res) => {
+    const name = req.params.name;
+    const n_name = req.body.name;
+    const n_price = req.body.price;
+    const updatedItem = {
+        name: n_name,
+        price: n_price
+    };
 
+    await fakeDb.update(name, updatedItem);
+
+    const message = {
+        updated: {
+            requested: name,
+            changedTo: updatedItem
+        }
+    };
+
+    return res.json(message);
+});
+
+app.delete('/items/:name', async (req, res) => {
+    const name = req.params.name;
+    await fakeDb.delete(name);
+
+    const message = {
+        deleted: name
+    }
+
+    return res.json(message);
 });
 
 // listener
