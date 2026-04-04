@@ -1,0 +1,14 @@
+[
+  {
+    "name": "potatoes",
+    "price": 0.89
+  },
+  {
+    "name": "cheerios",
+    "price": 2.99
+  },
+  {
+    "name": "donuts",
+    "price": 4.69
+  }
+]
