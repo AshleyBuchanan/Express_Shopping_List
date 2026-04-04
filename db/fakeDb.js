@@ -54,11 +54,12 @@ class FakeDb {
 
     async update(name, updatedItem) {
         await this.init();
-        const item = this.get(name);
+        const item = await this.get(name);
         if (!item) return {message: 'no item by that name'};
         if (updatedItem.name !== undefined) item.name = updatedItem.name;
         if (updatedItem.price !== undefined) item.price = updatedItem.price;
 
+        Object.assign(item, updatedItem);
         await this.persist();
         await this.saveToLog('updateOne', name);
         return item;
@@ -69,9 +70,10 @@ class FakeDb {
         const index = this.items.findIndex(item => item.name === name);
         if (index === -1) return {message: 'no item by that name'};
 
+        const deleted = this.items.splice(index, 1)[0];
         await this.persist();
         await this.saveToLog('deleteOne', name);
-        return this.items.splice(index, 1)[0];
+        return deleted;
     };
 
     async saveToLog(op, name) {
