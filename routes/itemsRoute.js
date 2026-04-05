@@ -20,16 +20,16 @@ router.route('/')
         return res.json(message);
 });
 
-router.route('/:name')
+router.route('/:nameOrId')
     .get( async (req, res) => {
-        const name = req.params.name;
-        const item = await fakeDb.get(name);
+        const nameOrId = req.params.nameOrId;
+        const item = await fakeDb.get(nameOrId);
 
         return res.json(item);
     })
 
     .patch(async (req, res) => {
-        const name = req.params.name;
+        const nameOrId = req.params.nameOrId;
         const n_name = req.body.name;
         const n_price = req.body.price;
         const updatedItem = {
@@ -37,26 +37,13 @@ router.route('/:name')
             price: n_price
     };
 
-    await fakeDb.update(name, updatedItem);
-
-    const message = {
-        updated: {
-            requested: name,
-            changedTo: updatedItem
-        }
-    };
-
+    let message = await fakeDb.update(nameOrId, updatedItem);
     return res.json(message);
     })
 
     .delete(async (req, res) => {
-        const name = req.params.name;
-        await fakeDb.delete(name);
-
-        const message = {
-            deleted: name
-        }
-
+        const nameOrId = req.params.nameOrId;
+        let message = await fakeDb.delete(nameOrId);
         return res.json(message);
 });
 

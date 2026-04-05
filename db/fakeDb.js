@@ -33,10 +33,18 @@ class FakeDb {
         return this.items;
     };
 
-    async get(name) {
+    async get(nameOrId) {        
         await this.init();
-        const item = this.items.filter(item => item.name === name);
-        if (!item) return {message: 'no item by that name'};
+
+        const {id, name} = this.findNameOrId(nameOrId);
+        let item = null;
+        if (name !== null) {
+            item = this.items.filter(item => item.name === name);
+        } else {
+            item = this.items.filter(item => item.id === id);
+        };
+        if (item.length===0) return {message: 'no item by that name'};
+
 
         await this.persist();
         await this.saveToLog('getOne', name);
@@ -52,28 +60,50 @@ class FakeDb {
         return item;
     };
 
-    async update(name, updatedItem) {
+    async update(nameOrId, updatedItem) {
         await this.init();
-        const item = await this.get(name);
-        if (!item) return {message: 'no item by that name'};
-        if (updatedItem.name !== undefined) item.name = updatedItem.name;
-        if (updatedItem.price !== undefined) item.price = updatedItem.price;
+
+        const {id, name} = this.findNameOrId(nameOrId);
+        let item;
+        if (name !== null) {
+            item = this.items.filter(item => item.name === name);
+        } else {
+            item = this.items.filter(item => item.id === id);
+        };
+        if (item.length > 1)   return {message: 'cannot modify more than one of the same name'};
+        if (item.length === 0) return {message: 'no item by that name'};
+
+        if (updatedItem.name  !== undefined) item[0].name  = updatedItem.name;
+        if (updatedItem.price !== undefined) item[0].price = updatedItem.price;
 
         Object.assign(item, updatedItem);
+        
         await this.persist();
         await this.saveToLog('updateOne', name);
-        return item;
+        return {updated: item};
     };
 
-    async delete(name) {
+    async delete(nameOrId) {
         await this.init();
-        const index = this.items.findIndex(item => item.name === name);
-        if (index === -1) return {message: 'no item by that name'};
 
+        const {id, name} = this.findNameOrId(nameOrId);
+        let item, index;
+        if (name !== null) {
+            item = this.items.filter(item => item.name === name);
+            index = this.items.findIndex(item => item.name === name);
+        } else {
+            item = this.items.filter(item => item.id === id);
+            index = this.items.findIndex(item => item.id === id);
+        };
+        if (item.length > 1)   return {message: 'cannot delete more than one of the same name'};
+        if (item.length === 0) return {message: 'no item by that name'};
+        
         const deleted = this.items.splice(index, 1)[0];
+        
         await this.persist();
         await this.saveToLog('deleteOne', name);
-        return deleted;
+
+        return {deleted: deleted};
     };
 
     async saveToLog(op, name) {
@@ -88,6 +118,11 @@ class FakeDb {
     async persist() {
         await fs.writeFile(FDB_FILE, JSON.stringify(this.items, null, 2), 'utf8')
     };
+
+    findNameOrId(nameOrId) {
+        if (nameOrId.length === 36 ) return {id: nameOrId, name: null}
+        return {id: null, name: nameOrId}
+    };
 };
 
 module.exports = new FakeDb();
@@ -98,3 +133,7 @@ module.exports = new FakeDb();
 // added a log file for db mutation as well.
 
 // funny. the further study has me doing the json db thing. :D
+
+// there are seemingly redundant filter and findIndex. It's intentional
+// to identify is more than one item of the same name exist beforehand,
+// then delete the requested item only if there's one.
