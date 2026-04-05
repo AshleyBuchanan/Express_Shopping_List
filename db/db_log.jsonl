@@ -33,3 +33,22 @@
 {"op":"getOne","name":"aged swiss cheese","timeStamp":"2026-04-04T18:08:27.705Z"}
 {"op":"deleteOne","name":"aged swiss cheese","timeStamp":"2026-04-04T18:08:40.279Z"}
 {"op":"deleteOne","name":"aged swiss cheese","timeStamp":"2026-04-04T18:12:18.314Z"}
+{"op":"createOne","name":"aged swiss cheese","timeStamp":"2026-04-04T19:17:01.803Z"}
+{"op":"createOne","name":"aged swiss cheese","timeStamp":"2026-04-04T19:18:03.459Z"}
+{"op":"createOne","name":"aged swiss cheese","timeStamp":"2026-04-04T19:18:39.447Z"}
+{"op":"createOne","name":"cheerios","timeStamp":"2026-04-04T20:25:24.737Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-04T20:45:59.595Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-04T20:46:21.292Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-04T20:47:02.853Z"}
+{"op":"deleteOne","name":"jerky","timeStamp":"2026-04-04T20:47:21.926Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-04T20:55:44.198Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-04T20:55:57.228Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-04T21:08:27.642Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-05T02:48:41.555Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-05T18:16:16.634Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-05T18:16:23.563Z"}
+{"op":"getOne","name":"aged swiss cheese","timeStamp":"2026-04-05T18:17:18.850Z"}
+{"op":"updateOne","name":"aged swiss cheese","timeStamp":"2026-04-05T18:17:18.854Z"}
+{"op":"createOne","name":"jackfruit","timeStamp":"2026-04-05T18:18:07.259Z"}
+{"op":"deleteOne","name":"jackfruit","timeStamp":"2026-04-05T18:18:37.178Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-05T18:48:15.771Z"}

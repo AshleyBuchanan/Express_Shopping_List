@@ -35,7 +35,7 @@ class FakeDb {
 
     async get(name) {
         await this.init();
-        const item = this.items.find(item => item.name === name);
+        const item = this.items.filter(item => item.name === name);
         if (!item) return {message: 'no item by that name'};
 
         await this.persist();
@@ -45,7 +45,7 @@ class FakeDb {
 
     async create(item) {
         await this.init();
-
+        item.id = crypto.randomUUID();
         this.items.push(item);
         await this.persist();
         await this.saveToLog('createOne', item.name);
@@ -96,3 +96,5 @@ module.exports = new FakeDb();
 // i only did this to demonstrate a single point of access.
 // and to prevent the fakeDb from resetting... it was annoying.
 // added a log file for db mutation as well.
+
+// funny. the further study has me doing the json db thing. :D

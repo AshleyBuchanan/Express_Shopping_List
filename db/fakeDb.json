@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "name": "aged swiss cheese",
+    "price": 10.79,
+    "id": "82e9e1e2-ea5f-4335-933e-7a2c926a0594"
+  },
+  {
+    "name": "cheerios",
+    "price": 2.99,
+    "id": "f275bb18-2363-40db-9200-c8c30f9b7137"
+  },
+  {
+    "name": "jerky",
+    "price": 5.99,
+    "id": "4bf8a372-2618-40af-9268-7021222fb740"
+  }
+]
