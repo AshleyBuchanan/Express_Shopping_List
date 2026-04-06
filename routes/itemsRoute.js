@@ -7,7 +7,7 @@ router.route('/')
     .get(async (req, res) => {
         const items = await fakeDb.getAll();
 
-        return res.json(items);
+        return res.status(200).json(items);
     })
 
     .post(async (req, res) => {
@@ -17,7 +17,7 @@ router.route('/')
             added: item
         };
 
-        return res.json(message);
+        return res.status(201).json(message);
 });
 
 router.route('/:nameOrId')
