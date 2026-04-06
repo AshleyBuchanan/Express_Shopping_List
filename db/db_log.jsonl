@@ -82,3 +82,121 @@
 {"op":"updateOne","name":"aged swiss cheese","timeStamp":"2026-04-05T21:53:30.743Z"}
 {"op":"createOne","name":"aged swiss cheese","timeStamp":"2026-04-05T21:54:13.465Z"}
 {"op":"deleteOne","name":null,"timeStamp":"2026-04-05T21:56:01.678Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T17:20:33.661Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T17:25:07.138Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T17:26:35.931Z"}
+{"op":"createdDB","name":"init","timeStamp":"2026-04-06T17:26:35.933Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T17:50:19.301Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:13:53.058Z"}
+{"op":"createOne","name":"apple","timeStamp":"2026-04-06T18:13:53.065Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:13:53.204Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:13:53.216Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:19:46.800Z"}
+{"op":"createOne","name":"apple","timeStamp":"2026-04-06T18:19:46.805Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:19:46.927Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:19:46.935Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:20:41.447Z"}
+{"op":"createOne","name":"apple","timeStamp":"2026-04-06T18:20:41.452Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:20:41.565Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:20:41.573Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:22:50.454Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:22:50.456Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:22:50.458Z"}
+{"op":"createOne","name":"apple","timeStamp":"2026-04-06T18:22:50.459Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:22:50.577Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:22:50.588Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.201Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.202Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.204Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.204Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:36:13.205Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.206Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:36:13.206Z"}
+{"op":"createOne","name":"milk","timeStamp":"2026-04-06T18:36:13.206Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:36:13.207Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.208Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:36:13.208Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:36:13.208Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-06T18:36:13.209Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.209Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:36:13.209Z"}
+{"op":"updateOne","name":null,"timeStamp":"2026-04-06T18:36:13.210Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:36:13.214Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:36:13.214Z"}
+{"op":"deleteOne","name":null,"timeStamp":"2026-04-06T18:36:13.215Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.072Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.073Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.075Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.075Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:40:50.076Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.077Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:40:50.077Z"}
+{"op":"createOne","name":"milk","timeStamp":"2026-04-06T18:40:50.077Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:40:50.077Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.078Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:40:50.078Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:40:50.078Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-06T18:40:50.079Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.079Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:40:50.079Z"}
+{"op":"updateOne","name":null,"timeStamp":"2026-04-06T18:40:50.080Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:40:50.084Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:40:50.084Z"}
+{"op":"deleteOne","name":null,"timeStamp":"2026-04-06T18:40:50.085Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:37.995Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:37.997Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:37.999Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:38.000Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:43:38.000Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:38.001Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:43:38.001Z"}
+{"op":"createOne","name":"milk","timeStamp":"2026-04-06T18:43:38.002Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:43:38.002Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:38.003Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:43:38.003Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:43:38.003Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-06T18:43:38.003Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:38.004Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:43:38.004Z"}
+{"op":"updateOne","name":null,"timeStamp":"2026-04-06T18:43:38.004Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:43:38.010Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:43:38.010Z"}
+{"op":"deleteOne","name":null,"timeStamp":"2026-04-06T18:43:38.010Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.303Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.305Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.306Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.307Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:44:06.308Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.309Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:44:06.309Z"}
+{"op":"createOne","name":"milk","timeStamp":"2026-04-06T18:44:06.309Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:44:06.310Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.311Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:44:06.311Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:44:06.312Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-06T18:44:06.312Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.313Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:44:06.313Z"}
+{"op":"updateOne","name":null,"timeStamp":"2026-04-06T18:44:06.313Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:44:06.313Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:44:06.314Z"}
+{"op":"deleteOne","name":null,"timeStamp":"2026-04-06T18:44:06.314Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.065Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.067Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.068Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.069Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:48:43.070Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.070Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:48:43.071Z"}
+{"op":"createOne","name":"milk","timeStamp":"2026-04-06T18:48:43.071Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-06T18:48:43.072Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.072Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:48:43.073Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:48:43.073Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-06T18:48:43.073Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.074Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:48:43.074Z"}
+{"op":"updateOne","name":null,"timeStamp":"2026-04-06T18:48:43.074Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-06T18:48:43.075Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-06T18:48:43.075Z"}
+{"op":"deleteOne","name":null,"timeStamp":"2026-04-06T18:48:43.075Z"}

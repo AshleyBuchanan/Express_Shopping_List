@@ -73,10 +73,10 @@ class FakeDb {
         if (item.length > 1)   return {message: 'cannot modify more than one of the same name'};
         if (item.length === 0) return {message: 'no item by that name'};
 
-        if (updatedItem.name  !== undefined) item[0].name  = updatedItem.name;
-        if (updatedItem.price !== undefined) item[0].price = updatedItem.price;
+        //if (updatedItem.name  !== undefined) item[0].name  = updatedItem.name;
+        //if (updatedItem.price !== undefined) item[0].price = updatedItem.price;
 
-        Object.assign(item, updatedItem);
+        Object.assign(item[0], updatedItem);
         
         await this.persist();
         await this.saveToLog('updateOne', name);
@@ -104,6 +104,17 @@ class FakeDb {
         await this.saveToLog('deleteOne', name);
 
         return {deleted: deleted};
+    };
+
+    async deleteAll() {
+        await this.init();
+
+        this.items = [];
+
+        await this.persist();
+        await this.saveToLog('deleteAll', 'all items');
+
+        return { deleted: 'all items' };
     };
 
     async saveToLog(op, name) {
