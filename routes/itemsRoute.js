@@ -37,8 +37,8 @@ router.route('/:nameOrId')
             price: n_price
     };
 
-    let message = await fakeDb.update(nameOrId, updatedItem);
-    return res.json(message);
+        let message = await fakeDb.update(nameOrId, updatedItem);
+        return res.json(message);
     })
 
     .delete(async (req, res) => {

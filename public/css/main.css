@@ -1,0 +1,39 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--primary-color);
+    border-radius: 4px;
+    user-select: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    background-color: var(--tertiary-color);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 99%;
+}
+
+main {
+    flex: 0 1 66%;
+    border: 2px solid yellow;
+}
+
+
+:root {
+    --primary-color: hsl(225, 55%, 70%);
+    --secondary-color: hsl(225, 55%, 25%);
+    --secondary-color-hover: hsl(225, 55%, 35%);
+    --tertiary-color: hsl(223, 55%, 11%);
+}
