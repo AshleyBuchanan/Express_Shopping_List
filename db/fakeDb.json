@@ -1,7 +1,202 @@
 [
   {
-    "name": "strawberry jam",
-    "price": 5.99,
-    "id": "64c39f27-ec37-45b0-b134-e401bacd1830"
+    "name": "carrot",
+    "price": "7.14",
+    "id": "8a883337-97a3-48fe-8787-f16dd8121f91"
+  },
+  {
+    "name": "cabbage",
+    "price": "3.17",
+    "id": "844638a1-982c-4f81-9d8d-7dbd36f2e3f0"
+  },
+  {
+    "name": "cucumber",
+    "price": "13.76",
+    "id": "2eef2019-332b-42e4-ae32-390cab73e14d"
+  },
+  {
+    "name": "sweet potato",
+    "price": "11.31",
+    "id": "926453f8-21d2-470c-937a-4abad977513f"
+  },
+  {
+    "name": "green pepper",
+    "price": "6.50",
+    "id": "bafda1ad-bebd-46c2-a03e-ad6600dbf5d3"
+  },
+  {
+    "name": "carrot",
+    "price": "8.77",
+    "id": "674d2ce3-87c7-4a60-9859-c67aae5f7b5e"
+  },
+  {
+    "name": "peppers",
+    "price": "2.96",
+    "id": "33d25d6c-fac4-4f3e-bfb8-d83688e12c84"
+  },
+  {
+    "name": "french eschallots",
+    "price": "5.03",
+    "id": "f0478986-99d8-4703-8bdb-fd3641457ddd"
+  },
+  {
+    "name": "butternut lettuce",
+    "price": "12.71",
+    "id": "bd20d2fd-9134-4c09-963a-49597d8f9fc3"
+  },
+  {
+    "name": "hijiki",
+    "price": "1.87",
+    "id": "1a33c753-c3ba-4ee4-89a0-2d0182aa9019"
+  },
+  {
+    "name": "bok choy",
+    "price": "9.95",
+    "id": "ed8211f8-3f45-4557-95f0-833afa94b703"
+  },
+  {
+    "name": "bok choy",
+    "price": "1.87",
+    "id": "c6171971-71bd-4f34-868e-0fba26343790"
+  },
+  {
+    "name": "cucumber",
+    "price": "7.30",
+    "id": "c34411fc-2cdc-4f04-aba0-f654ff845e1c"
+  },
+  {
+    "name": "green pepper",
+    "price": "5.07",
+    "id": "2c35942d-dc69-4624-b5a0-1ec0a2dd4160"
+  },
+  {
+    "name": "cauliflower",
+    "price": "6.46",
+    "id": "09b85591-dd54-40af-b216-129afbddf58b"
+  },
+  {
+    "name": "bean shoots",
+    "price": "2.00",
+    "id": "f45015a6-1034-4e1c-a661-997e09f1cc20"
+  },
+  {
+    "name": "sweet potato",
+    "price": "4.17",
+    "id": "9bd8048e-68e1-47dd-b253-63e8f36c0fd1"
+  },
+  {
+    "name": "french eschallots",
+    "price": "1.71",
+    "id": "d3096bc6-d17b-40b3-8b89-93a560d2a7e6"
+  },
+  {
+    "name": "leeks",
+    "price": "13.29",
+    "id": "e58c5d88-1589-4033-a558-58b3e6e163db"
+  },
+  {
+    "name": "cornichons",
+    "price": "14.04",
+    "id": "face5152-be86-4530-819e-23c31610d033"
+  },
+  {
+    "name": "swiss chard",
+    "price": "6.55",
+    "id": "adcbc351-fe9c-4ceb-98f6-5542a382a94a"
+  },
+  {
+    "name": "pumpkin",
+    "price": "5.30",
+    "id": "8b799c5e-1823-4a25-b23b-666e1bb333af"
+  },
+  {
+    "name": "potatoes",
+    "price": "4.19",
+    "id": "0f3e7325-636a-4779-822c-f526fc76cb2e"
+  },
+  {
+    "name": "zucchini",
+    "price": "6.53",
+    "id": "0c672dc4-0d44-458d-a948-c9482b0c7544"
+  },
+  {
+    "name": "pumpkin",
+    "price": "7.82",
+    "id": "e0a73d8d-f58a-443e-bd1e-e38276069f1b"
+  },
+  {
+    "name": "swiss chard",
+    "price": "1.94",
+    "id": "9cd8897f-2713-48b9-a8b3-c2e6ec2d4783"
+  },
+  {
+    "name": "turnips",
+    "price": "10.75",
+    "id": "2ce91279-3095-40e7-99e3-72bef32a1543"
+  },
+  {
+    "name": "broccolini",
+    "price": "10.80",
+    "id": "0b6e3c24-4b61-41a5-9828-037e2bef7a33"
+  },
+  {
+    "name": "okra",
+    "price": "6.52",
+    "id": "4d863df0-ccf7-4787-9c21-2344fa830bd7"
+  },
+  {
+    "name": "broccoli",
+    "price": "6.50",
+    "id": "dc3f033f-3fde-415b-9650-6b6fc3bbf483"
+  },
+  {
+    "name": "iceberg lettuce",
+    "price": "14.59",
+    "id": "db8724c3-ecac-41bb-8a9c-b280f0ed9470"
+  },
+  {
+    "name": "kohlrabi",
+    "price": "9.38",
+    "id": "0a0ed8ae-b638-4f5c-87cf-632d5707846a"
+  },
+  {
+    "name": "broccolini",
+    "price": "2.99",
+    "id": "434035a4-93ae-4f0a-b708-bd7d43cecc90"
+  },
+  {
+    "name": "bok choy",
+    "price": "8.52",
+    "id": "8bab40e3-fe92-46bd-8814-117fecbc7f90"
+  },
+  {
+    "name": "snowpea sprouts",
+    "price": "7.77",
+    "id": "08f8242c-1ad6-4ca0-8866-dcdbedb27015"
+  },
+  {
+    "name": "hijiki",
+    "price": "10.14",
+    "id": "7195a13e-ffaa-4bdf-a218-7f8691289b10"
+  },
+  {
+    "name": "english spinach",
+    "price": "4.36",
+    "id": "9525d8e4-84dd-4a54-81f2-88ec4a6caf8e"
+  },
+  {
+    "name": "turnips",
+    "price": "3.66",
+    "id": "8ab12628-7fcf-4983-9364-54c3ae340121"
+  },
+  {
+    "name": "lettuce",
+    "price": "4.94",
+    "id": "db311e81-866d-4191-abee-336751f4917e"
+  },
+  {
+    "name": "butternut lettuce",
+    "price": "5.30",
+    "id": "b04d79e0-6088-4d45-8435-6772f028c1eb"
   }
 ]

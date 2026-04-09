@@ -79,7 +79,7 @@ class FakeDb {
         Object.assign(item[0], updatedItem);
         
         await this.persist();
-        await this.saveToLog('updateOne', name);
+        await this.saveToLog('updateOne', item[0].name);
         return {updated: item};
     };
 
@@ -101,7 +101,7 @@ class FakeDb {
         const deleted = this.items.splice(index, 1)[0];
         
         await this.persist();
-        await this.saveToLog('deleteOne', name);
+        await this.saveToLog('deleteOne', item[0].name);
 
         return {deleted: deleted};
     };
