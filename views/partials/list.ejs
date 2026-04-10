@@ -1,11 +1,15 @@
 <main>
+
     <div class="container">
         <div class="items-container">
+            <div class="items-container-bottom"></div>
             <% for (let i = 0; i < array.length; i++) { %>
                 <div class="items-card" data-id="<%= array[i].id || 'none' %>">
                     <div class="item-actions">
-                        <button class="icon-btn edit-btn" type="button">✏️</button>
-                        <button class="icon-btn delete-btn" type="button">🗑️</button>
+                        <% if (array[i].id){ %>
+                            <button class="icon-btn edit-btn" type="button">✏️</button>
+                            <button class="icon-btn delete-btn" type="button">🗑️</button>
+                        <% } %>
                     </div>
                     <div class="item-block">
                         <%= array[i].name || array[i] %>
@@ -25,10 +29,19 @@
                 <div class="item-block add">
                     0.00
                 </div>
+                <form class="new-item-form items-card" action="/items/celery">
+                    <div class="item-block">
+                        <input type="text" placeholder="name" name="name" required>
+                    </div>
+                    <div class="item-block">
+                        <input class="item-block" type="text" placeholder="price" name="price" required>
+                    </div>
+                    <div class="item-actions">
+                        <button class="icon-btn add-btn" type="button">✦</button>
+                    </div>
+                </form>
             </div>
-        <div class="items-container-bottom"></div>
     </div>
-    <form class="" action="/items/celery"></form>
 </main>
 
 <script src="/js/list.js"></script>

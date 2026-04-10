@@ -1,333 +1,56 @@
-{"op":"createdDB","name":"init","timeStamp":"2026-04-09T20:27:02.155Z"}
-{"op":"createOne","name":"apple","timeStamp":"2026-04-09T20:27:02.156Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.159Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.160Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.160Z"}
-{"op":"createOne","name":"milk","timeStamp":"2026-04-09T20:27:02.160Z"}
-{"op":"getOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.162Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.163Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.164Z"}
-{"op":"updateOne","timeStamp":"2026-04-09T20:27:02.165Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.166Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.166Z"}
-{"op":"deleteOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.167Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.168Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.185Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.185Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.186Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.186Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.186Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.187Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.187Z"}
-{"op":"createOne","name":"milk","timeStamp":"2026-04-09T20:27:02.187Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T20:27:02.187Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.189Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.189Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.190Z"}
-{"op":"getOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.190Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.191Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.191Z"}
-{"op":"updateOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.191Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-09T20:27:02.192Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.192Z"}
-{"op":"deleteOne","name":"jerky","timeStamp":"2026-04-09T20:27:02.192Z"}
-{"op":"createOne","name":"carrot","timeStamp":"2026-04-09T20:31:42.496Z"}
-{"op":"createOne","name":"cabbage","timeStamp":"2026-04-09T20:31:42.505Z"}
-{"op":"createOne","name":"cucumber","timeStamp":"2026-04-09T20:31:42.515Z"}
-{"op":"createOne","name":"sweet potato","timeStamp":"2026-04-09T20:31:42.518Z"}
-{"op":"createOne","name":"green pepper","timeStamp":"2026-04-09T20:31:42.521Z"}
-{"op":"createOne","name":"carrot","timeStamp":"2026-04-09T20:31:42.536Z"}
-{"op":"createOne","name":"peppers","timeStamp":"2026-04-09T20:31:42.563Z"}
-{"op":"createOne","name":"french eschallots","timeStamp":"2026-04-09T20:31:42.584Z"}
-{"op":"createOne","name":"butternut lettuce","timeStamp":"2026-04-09T20:31:42.606Z"}
-{"op":"createOne","name":"hijiki","timeStamp":"2026-04-09T20:31:42.609Z"}
-{"op":"createOne","name":"bok choy","timeStamp":"2026-04-09T20:31:42.611Z"}
-{"op":"createOne","name":"bok choy","timeStamp":"2026-04-09T20:31:42.617Z"}
-{"op":"createOne","name":"cucumber","timeStamp":"2026-04-09T20:31:42.620Z"}
-{"op":"createOne","name":"green pepper","timeStamp":"2026-04-09T20:31:42.629Z"}
-{"op":"createOne","name":"cauliflower","timeStamp":"2026-04-09T20:31:42.634Z"}
-{"op":"createOne","name":"bean shoots","timeStamp":"2026-04-09T20:31:42.638Z"}
-{"op":"createOne","name":"sweet potato","timeStamp":"2026-04-09T20:31:42.643Z"}
-{"op":"createOne","name":"french eschallots","timeStamp":"2026-04-09T20:31:42.645Z"}
-{"op":"createOne","name":"leeks","timeStamp":"2026-04-09T20:31:42.647Z"}
-{"op":"createOne","name":"cornichons","timeStamp":"2026-04-09T20:31:42.652Z"}
-{"op":"createOne","name":"swiss chard","timeStamp":"2026-04-09T20:31:42.658Z"}
-{"op":"createOne","name":"pumpkin","timeStamp":"2026-04-09T20:31:42.660Z"}
-{"op":"createOne","name":"potatoes","timeStamp":"2026-04-09T20:31:42.662Z"}
-{"op":"createOne","name":"zucchini","timeStamp":"2026-04-09T20:31:42.663Z"}
-{"op":"createOne","name":"pumpkin","timeStamp":"2026-04-09T20:31:42.668Z"}
-{"op":"createOne","name":"swiss chard","timeStamp":"2026-04-09T20:31:42.672Z"}
-{"op":"createOne","name":"turnips","timeStamp":"2026-04-09T20:31:42.676Z"}
-{"op":"createOne","name":"broccolini","timeStamp":"2026-04-09T20:31:42.677Z"}
-{"op":"createOne","name":"okra","timeStamp":"2026-04-09T20:31:42.679Z"}
-{"op":"createOne","name":"broccoli","timeStamp":"2026-04-09T20:31:42.682Z"}
-{"op":"createOne","name":"iceberg lettuce","timeStamp":"2026-04-09T20:31:42.684Z"}
-{"op":"createOne","name":"kohlrabi","timeStamp":"2026-04-09T20:31:42.687Z"}
-{"op":"createOne","name":"broccolini","timeStamp":"2026-04-09T20:31:42.690Z"}
-{"op":"createOne","name":"bok choy","timeStamp":"2026-04-09T20:31:42.692Z"}
-{"op":"createOne","name":"snowpea sprouts","timeStamp":"2026-04-09T20:31:42.693Z"}
-{"op":"createOne","name":"hijiki","timeStamp":"2026-04-09T20:31:42.695Z"}
-{"op":"createOne","name":"english spinach","timeStamp":"2026-04-09T20:31:42.696Z"}
-{"op":"createOne","name":"turnips","timeStamp":"2026-04-09T20:31:42.697Z"}
-{"op":"createOne","name":"lettuce","timeStamp":"2026-04-09T20:31:42.698Z"}
-{"op":"createOne","name":"butternut lettuce","timeStamp":"2026-04-09T20:31:42.699Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T20:32:03.617Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T20:32:20.006Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T20:36:04.015Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:33:44.059Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:34:32.027Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:34:59.767Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:35:14.520Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:37:59.745Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:39:59.059Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:40:34.235Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:42:34.048Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:43:43.914Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:43:55.124Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:50:18.940Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:51:06.485Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:51:08.106Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:51:30.467Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:51:56.811Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:53:08.084Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:54:27.579Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:56:21.702Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:56:52.019Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:57:23.746Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:57:46.962Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:57:58.197Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:59:09.512Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T21:59:30.821Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:00:08.336Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:00:39.977Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:00:52.604Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:01:22.443Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:03:37.316Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:04:04.527Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:04:45.579Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:05:20.018Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:05:53.795Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:07:37.670Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:08:09.055Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:11:06.603Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:12:44.912Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:12:57.433Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:14:53.879Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:15:26.566Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:15:42.257Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:16:00.853Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:16:36.339Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:16:53.976Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:18:35.675Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:18:57.562Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:19:28.338Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:21:09.843Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:21:22.010Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:22:19.552Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:26:06.032Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:26:42.963Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:27:01.891Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:27:11.557Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:27:39.345Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:27:59.192Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:29:59.699Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:30:34.253Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:31:18.926Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:31:34.314Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:31:58.059Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:32:05.290Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:32:22.542Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:32:42.266Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:33:23.608Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:34:02.268Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:35:12.343Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:35:21.886Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:35:59.922Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:39:46.086Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:40:00.420Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:40:02.174Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:42:35.283Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:42:39.649Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:42:40.612Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:46:54.702Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:47:49.063Z"}
-{"op":"deleteOne","name":null,"timeStamp":"2026-04-09T22:47:51.835Z"}
-{"op":"deleteOne","name":null,"timeStamp":"2026-04-09T22:47:58.363Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:48:00.453Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:48:18.327Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:52:12.074Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:56:02.926Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T22:57:19.433Z"}
-{"op":"deleteOne","name":"carrot","timeStamp":"2026-04-09T22:57:25.616Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:04:53.676Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:05:02.322Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:08:28.685Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:09:43.261Z"}
-{"op":"deleteOne","name":"cabbage","timeStamp":"2026-04-09T23:09:49.731Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:12:43.263Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:13:06.986Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:13:36.239Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:14:27.769Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:15:36.969Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:16:07.101Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:16:09.053Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:16:39.302Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:17:08.097Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:17:13.768Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:18:19.705Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:18:35.581Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:21:10.734Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:22:01.323Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:22:31.443Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:23:12.932Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:23:54.024Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:24:31.005Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:24:41.113Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:24:44.438Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:25:13.757Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:25:43.106Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:25:56.285Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:26:06.840Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:26:18.828Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:26:28.132Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:26:40.287Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:26:53.313Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:27:20.742Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:28:22.657Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:28:33.466Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:29:15.709Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-09T23:29:49.370Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:16:37.699Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:17:42.117Z"}
-{"op":"createOne","name":"apple","timeStamp":"2026-04-10T01:18:05.256Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.260Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.261Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.261Z"}
-{"op":"createOne","name":"milk","timeStamp":"2026-04-10T01:18:05.262Z"}
-{"op":"getOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.264Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.265Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.265Z"}
-{"op":"updateOne","timeStamp":"2026-04-10T01:18:05.266Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.267Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.268Z"}
-{"op":"deleteOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.269Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.270Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.289Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.290Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.292Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.294Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.295Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.299Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.300Z"}
-{"op":"createOne","name":"milk","timeStamp":"2026-04-10T01:18:05.300Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:18:05.300Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.301Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.301Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.301Z"}
-{"op":"getOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.301Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.302Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.302Z"}
-{"op":"updateOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.302Z"}
-{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T01:18:05.303Z"}
-{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.303Z"}
-{"op":"deleteOne","name":"jerky","timeStamp":"2026-04-10T01:18:05.303Z"}
-{"op":"createOne","name":"asparagus","timeStamp":"2026-04-10T01:21:57.538Z"}
-{"op":"createOne","name":"celery","timeStamp":"2026-04-10T01:21:57.544Z"}
-{"op":"createOne","name":"beetroot","timeStamp":"2026-04-10T01:21:57.546Z"}
-{"op":"createOne","name":"asian greens","timeStamp":"2026-04-10T01:21:57.548Z"}
-{"op":"createOne","name":"onion","timeStamp":"2026-04-10T01:21:57.550Z"}
-{"op":"createOne","name":"green pepper","timeStamp":"2026-04-10T01:21:57.552Z"}
-{"op":"createOne","name":"green pepper","timeStamp":"2026-04-10T01:21:57.553Z"}
-{"op":"createOne","name":"red pepper","timeStamp":"2026-04-10T01:21:57.554Z"}
-{"op":"createOne","name":"cornichons","timeStamp":"2026-04-10T01:21:57.558Z"}
-{"op":"createOne","name":"french eschallots","timeStamp":"2026-04-10T01:21:57.560Z"}
-{"op":"createOne","name":"cabbage","timeStamp":"2026-04-10T01:21:57.561Z"}
-{"op":"createOne","name":"brussels sprouts","timeStamp":"2026-04-10T01:21:57.562Z"}
-{"op":"createOne","name":"kohlrabi","timeStamp":"2026-04-10T01:21:57.564Z"}
-{"op":"createOne","name":"chilli pepper","timeStamp":"2026-04-10T01:21:57.565Z"}
-{"op":"createOne","name":"chilli pepper","timeStamp":"2026-04-10T01:21:57.566Z"}
-{"op":"createOne","name":"potatoes","timeStamp":"2026-04-10T01:21:57.568Z"}
-{"op":"createOne","name":"hijiki","timeStamp":"2026-04-10T01:21:57.569Z"}
-{"op":"createOne","name":"snowpea sprouts","timeStamp":"2026-04-10T01:21:57.571Z"}
-{"op":"createOne","name":"chilli pepper","timeStamp":"2026-04-10T01:21:57.572Z"}
-{"op":"createOne","name":"jicama","timeStamp":"2026-04-10T01:21:57.573Z"}
-{"op":"createOne","name":"parsnip","timeStamp":"2026-04-10T01:21:57.574Z"}
-{"op":"createOne","name":"purple carrot","timeStamp":"2026-04-10T01:21:57.575Z"}
-{"op":"createOne","name":"red cabbage","timeStamp":"2026-04-10T01:21:57.575Z"}
-{"op":"createOne","name":"squash","timeStamp":"2026-04-10T01:21:57.576Z"}
-{"op":"createOne","name":"artichoke","timeStamp":"2026-04-10T01:21:57.577Z"}
-{"op":"createOne","name":"lettuce","timeStamp":"2026-04-10T01:21:57.578Z"}
-{"op":"createOne","name":"squash","timeStamp":"2026-04-10T01:21:57.579Z"}
-{"op":"createOne","name":"sun dried tomatoes","timeStamp":"2026-04-10T01:21:57.580Z"}
-{"op":"createOne","name":"garlic","timeStamp":"2026-04-10T01:21:57.580Z"}
-{"op":"createOne","name":"cucumber","timeStamp":"2026-04-10T01:21:57.581Z"}
-{"op":"createOne","name":"carob carrot","timeStamp":"2026-04-10T01:21:57.582Z"}
-{"op":"createOne","name":"capers","timeStamp":"2026-04-10T01:21:57.582Z"}
-{"op":"createOne","name":"leeks","timeStamp":"2026-04-10T01:21:57.583Z"}
-{"op":"createOne","name":"brussels sprouts","timeStamp":"2026-04-10T01:21:57.584Z"}
-{"op":"createOne","name":"bean sprouts","timeStamp":"2026-04-10T01:21:57.584Z"}
-{"op":"createOne","name":"red cabbage","timeStamp":"2026-04-10T01:21:57.585Z"}
-{"op":"createOne","name":"sweet potato","timeStamp":"2026-04-10T01:21:57.586Z"}
-{"op":"createOne","name":"broccoli","timeStamp":"2026-04-10T01:21:57.587Z"}
-{"op":"createOne","name":"cos lettuce","timeStamp":"2026-04-10T01:21:57.587Z"}
-{"op":"createOne","name":"jicama","timeStamp":"2026-04-10T01:21:57.588Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:22:00.570Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:22:10.247Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:22:27.230Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:23:11.241Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:23:19.158Z"}
-{"op":"createOne","name":"spinach","timeStamp":"2026-04-10T01:23:40.787Z"}
-{"op":"createOne","name":"broccoli","timeStamp":"2026-04-10T01:23:40.795Z"}
-{"op":"createOne","name":"jicama","timeStamp":"2026-04-10T01:23:40.796Z"}
-{"op":"createOne","name":"peas","timeStamp":"2026-04-10T01:23:40.798Z"}
-{"op":"createOne","name":"garlic","timeStamp":"2026-04-10T01:23:40.800Z"}
-{"op":"createOne","name":"turnips","timeStamp":"2026-04-10T01:23:40.801Z"}
-{"op":"createOne","name":"french eschallots","timeStamp":"2026-04-10T01:23:40.803Z"}
-{"op":"createOne","name":"beans","timeStamp":"2026-04-10T01:23:40.804Z"}
-{"op":"createOne","name":"parsnip","timeStamp":"2026-04-10T01:23:40.806Z"}
-{"op":"createOne","name":"peppers","timeStamp":"2026-04-10T01:23:40.808Z"}
-{"op":"createOne","name":"bean shoots","timeStamp":"2026-04-10T01:23:40.810Z"}
-{"op":"createOne","name":"endive","timeStamp":"2026-04-10T01:23:40.811Z"}
-{"op":"createOne","name":"sun dried tomatoes","timeStamp":"2026-04-10T01:23:40.812Z"}
-{"op":"createOne","name":"fresh chillies","timeStamp":"2026-04-10T01:23:40.813Z"}
-{"op":"createOne","name":"rhubarb","timeStamp":"2026-04-10T01:23:40.814Z"}
-{"op":"createOne","name":"potatoes","timeStamp":"2026-04-10T01:23:40.815Z"}
-{"op":"createOne","name":"spinach","timeStamp":"2026-04-10T01:23:40.815Z"}
-{"op":"createOne","name":"cornichons","timeStamp":"2026-04-10T01:23:40.818Z"}
-{"op":"createOne","name":"radish","timeStamp":"2026-04-10T01:23:40.819Z"}
-{"op":"createOne","name":"endive","timeStamp":"2026-04-10T01:23:40.820Z"}
-{"op":"createOne","name":"turnips","timeStamp":"2026-04-10T01:23:40.821Z"}
-{"op":"createOne","name":"endive","timeStamp":"2026-04-10T01:23:40.822Z"}
-{"op":"createOne","name":"broccolini","timeStamp":"2026-04-10T01:23:40.823Z"}
-{"op":"createOne","name":"lettuce","timeStamp":"2026-04-10T01:23:40.823Z"}
-{"op":"createOne","name":"asparagus","timeStamp":"2026-04-10T01:23:40.824Z"}
-{"op":"createOne","name":"carrot","timeStamp":"2026-04-10T01:23:40.825Z"}
-{"op":"createOne","name":"sweet potato","timeStamp":"2026-04-10T01:23:40.826Z"}
-{"op":"createOne","name":"cos lettuce","timeStamp":"2026-04-10T01:23:40.827Z"}
-{"op":"createOne","name":"celery","timeStamp":"2026-04-10T01:23:40.828Z"}
-{"op":"createOne","name":"beetroot","timeStamp":"2026-04-10T01:23:40.829Z"}
-{"op":"createOne","name":"asparagus","timeStamp":"2026-04-10T01:23:40.830Z"}
-{"op":"createOne","name":"jicama","timeStamp":"2026-04-10T01:23:40.831Z"}
-{"op":"createOne","name":"chives","timeStamp":"2026-04-10T01:23:40.832Z"}
-{"op":"createOne","name":"garlic","timeStamp":"2026-04-10T01:23:40.833Z"}
-{"op":"createOne","name":"swiss chard","timeStamp":"2026-04-10T01:23:40.833Z"}
-{"op":"createOne","name":"carob carrot","timeStamp":"2026-04-10T01:23:40.834Z"}
-{"op":"createOne","name":"fresh chillies","timeStamp":"2026-04-10T01:23:40.835Z"}
-{"op":"createOne","name":"chinese cabbage","timeStamp":"2026-04-10T01:23:40.835Z"}
-{"op":"createOne","name":"arugula","timeStamp":"2026-04-10T01:23:40.836Z"}
-{"op":"createOne","name":"potatoes","timeStamp":"2026-04-10T01:23:40.837Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:23:45.672Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:24:30.737Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:27:26.188Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:28:18.585Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:28:20.204Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:28:41.930Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:29:09.409Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:33:19.456Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:34:31.685Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:34:40.595Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:35:29.925Z"}
-{"op":"deleteOne","name":"asparagus","timeStamp":"2026-04-10T01:35:32.929Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:35:41.263Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:37:07.681Z"}
-{"op":"getAll","name":"all items","timeStamp":"2026-04-10T01:37:58.572Z"}
+{"op":"createOne","name":"apple","timeStamp":"2026-04-10T20:15:05.434Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.438Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.438Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.439Z"}
+{"op":"createOne","name":"milk","timeStamp":"2026-04-10T20:15:05.439Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.441Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.442Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.442Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:15:05.444Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.445Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.446Z"}
+{"op":"deleteOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.447Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.447Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.472Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.472Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.473Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.473Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.474Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.474Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.474Z"}
+{"op":"createOne","name":"milk","timeStamp":"2026-04-10T20:15:05.474Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-10T20:15:05.475Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.475Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.475Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.475Z"}
+{"op":"getOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.476Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.476Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.476Z"}
+{"op":"updateOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.477Z"}
+{"op":"deleteAll","name":"all items","timeStamp":"2026-04-10T20:15:05.478Z"}
+{"op":"createOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.478Z"}
+{"op":"deleteOne","name":"jerky","timeStamp":"2026-04-10T20:15:05.478Z"}
+{"op":"createOne","name":"strawberry jam","timeStamp":"2026-04-10T20:17:34.946Z"}
+{"op":"updateOne","name":"strawberry jam","timeStamp":"2026-04-10T20:18:16.473Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:18:47.561Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:20:48.700Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:23:33.063Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:24:50.024Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:28:42.444Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:32:01.195Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-10T20:35:13.089Z"}
+{"op":"createOne","name":"thing","timeStamp":"2026-04-10T20:35:36.701Z"}
+{"op":"getAll","name":"all items","timeStamp":"2026-04-10T20:35:36.727Z"}
+{"op":"deleteOne","name":"thing","timeStamp":"2026-04-10T20:35:43.919Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T20:53:04.602Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:01:48.487Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:11:22.820Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:11:54.416Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:13:31.248Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:14:26.547Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:15:04.456Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:16:51.114Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:17:52.951Z"}
+{"op":"updateOne","timeStamp":"2026-04-10T21:21:02.797Z"}
+{"op":"updateOne","name":"strawberry jam","timeStamp":"2026-04-10T21:21:31.054Z"}
+{"op":"deleteOne","name":"strawberry jam","timeStamp":"2026-04-10T21:22:16.146Z"}

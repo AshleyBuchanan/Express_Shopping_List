@@ -64,23 +64,22 @@ class FakeDb {
         await this.init();
 
         const {id, name} = this.findNameOrId(nameOrId);
-        let item;
+        let item = [];
         if (name !== null) {
             item = this.items.filter(item => item.name === name);
         } else {
             item = this.items.filter(item => item.id === id);
         };
+
         if (item.length > 1)   return {message: 'cannot modify more than one of the same name'};
         if (item.length === 0) return {message: 'no item by that name'};
 
-        //if (updatedItem.name  !== undefined) item[0].name  = updatedItem.name;
-        //if (updatedItem.price !== undefined) item[0].price = updatedItem.price;
-
-        Object.assign(item[0], updatedItem);
+        if (updatedItem.name  !== undefined) item[0].name  = updatedItem.name;
+        if (updatedItem.price !== undefined) item[0].price = updatedItem.price;
         
         await this.persist();
         await this.saveToLog('updateOne', item[0].name);
-        return {updated: item};
+        return {updated: item[0]};
     };
 
     async delete(nameOrId) {
