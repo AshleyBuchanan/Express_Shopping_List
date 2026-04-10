@@ -1,0 +1,4 @@
+{
+    "watch": ["app.js", "routes", "views"],
+    "ignore": ["db/*.json", "db/*jsonl"]
+}

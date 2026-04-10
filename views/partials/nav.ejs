@@ -1,7 +1,9 @@
 <nav>
     <div class="container">
-        <div class="menu-item">Home</div>
-        <div class="menu-item">Logs</div>
-        <div class="menu-item">About</div>
+        <a class="menu-item <%= file === 'list'  ? 'active' : '' %>" href="/interface/list">List</a>
+        <a class="menu-item <%= file === 'logs'  ? 'active' : '' %>" href="/interface/logs">Logs</a>
+        <a class="menu-item <%= file === 'about' ? 'active' : '' %>" href="/interface/about">About</a>
     </div>
 </nav>
+
+<script src="/js/nav.js"></script>

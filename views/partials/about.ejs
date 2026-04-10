@@ -1,0 +1,46 @@
+<main>
+    <div class="container">
+        <div class="items-container">
+            <p class="about-paragraph">
+                What I've built here is more than just a <strong>“shopping list”</strong> 
+            app. It's a clean demonstration of how a full-stack Express 
+            application is structured and how responsibilities are 
+            separated across the system. On the backend, I've 
+            organized routes using an Express router, kept data access 
+            abstracted through modules like fakeDb and my JSONL-based 
+            log reader, and handled asynchronous operations with 
+            async/await. On the frontend, I'm using EJS as a 
+            templating engine to dynamically render content, including 
+            partials for layout reuse (nav, content, footer), which 
+            mirrors how larger production apps manage views. Even small 
+            decisions, like passing a file variable to control which partial 
+            renders, show an understanding of scalable layout patterns 
+            rather than hardcoding pages.
+            </p>
+
+            <p class="about-paragraph">
+                I'm also touching on important real-world concepts that go 
+            beyond just rendering data. The use of a .jsonl file introduces 
+            a lightweight logging mechanism, which is exactly the kind of 
+            pattern used in production systems for tracking events and 
+            debugging behavior. Structuring my app this way makes it 
+            testable: routes can be exercised independently, data modules 
+            can be mocked or swapped, and tools like Jest and Supertest can 
+            validate both logic and HTTP responses. Altogether, this app 
+            demonstrates core software engineering principles: modularity, 
+            separation of concerns, and predictable data flow.
+            </p>
+            <br>
+            <ul>
+                <li>Separated Responsibilities</li>
+                <li>Using Express Router</li>
+                <li>Abstracted Data</li>
+                <li>Used Asynchronous Backend</li>
+                <li>Used EJS Templating</li>
+                <li>Demo Scalability</li>
+                <li>Demo Modularity</li>
+                <li>Showed Testability</li>
+            </ul>
+        </div>
+    </div>
+</main>

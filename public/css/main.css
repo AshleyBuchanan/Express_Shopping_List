@@ -5,14 +5,23 @@
     user-select: none;
 }
 
-html {
+:root {
+    --primary-color: hsl(225, 55%, 70%);
+    --primary-color-faded: hsla(225, 55%, 70%, .25);
+    --secondary-color: hsl(225, 55%, 25%);
+    --secondary-color-hover: hsl(225, 55%, 35%);
+    --tertiary-color: hsl(223, 55%, 11%);
+    --shadow-color: hsla(0, 0%, 0%, 0.5);
+    --highlight-color-1: hsl(60, 100%, 50%);
+    --highlight-color-2: hsl(0, 0%, 100%);
+}
+
+html,
+body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-
-    display: flex;
-
     background-color: var(--tertiary-color);
 }
 
@@ -20,20 +29,145 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 16px;
 
-    width: 100%;
-    height: 99%;
+    height: 100vh;
 }
 
 main {
-    flex: 0 1 66%;
-    border: 2px solid yellow;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    
+    overflow: hidden;
 }
 
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
 
-:root {
-    --primary-color: hsl(225, 55%, 70%);
-    --secondary-color: hsl(225, 55%, 25%);
-    --secondary-color-hover: hsl(225, 55%, 35%);
-    --tertiary-color: hsl(223, 55%, 11%);
+    min-width: 600px;
+    max-width: 1000px;
+
+    background-color: var(--secondary-color);
+    box-shadow: 0 20px 40px 5px var(--shadow-color);
+}
+
+.items-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.items-card {
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    width: calc(33.33% - 16px);
+    max-height: 52px;
+    margin: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: background 0.2s ease-out;
+}
+
+.items-card:hover {
+    background-color: var(--secondary-color-hover);
+}
+
+.item-actions {
+    position: absolute;
+    top: 16px;
+    right: 8px;
+
+    display: flex;
+    gap: 8px;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.items-card:hover .item-actions {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.item-actions .icon-btn {
+    opacity: 0.25;
+    transition: transform 0.2s ease-out;
+}
+
+.item-actions .icon-btn:hover {
+    opacity: 1;
+    transform: scale(1.25);
+}
+
+.item-actions .icon-btn:active {
+    background-color: var(--primary-color-faded);
+}
+
+.icon-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.item-block {
+    flex: 1 0 33.33%;
+    align-self: center;
+}
+
+.about-paragraph {
+    line-height: 1.5rem;
+}
+
+.small {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 100%;
+    font-size: smaller;
+    margin: 0 8px;
+}
+
+.t-head {
+    font-size: large;
+    background-color: var(--secondary-color-hover);
+}
+
+.element {
+    width: 33%;
+}
+
+.items-container-bottom {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    height: 30px;
+    padding: 24px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.add-btn, .add {
+    color: var(--highlight-color-2);
+    text-shadow: 0 0 10px hsla(0, 0%, 100%, .5);
+}
+
+.new:hover {
+    box-shadow: inset 0 0 2px 2px var(--highlight-color-1);
 }
