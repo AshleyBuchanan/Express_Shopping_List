@@ -2,7 +2,6 @@
 
     <div class="container">
         <div class="items-container">
-            <div class="items-container-bottom"></div>
             <% for (let i = 0; i < array.length; i++) { %>
                 <div class="items-card" data-id="<%= array[i].id || 'none' %>">
                     <div class="item-actions">
@@ -41,6 +40,8 @@
                     </div>
                 </form>
             </div>
+            <div class="items-container-bottom"></div>
+        </div>
     </div>
 </main>
 

@@ -79,7 +79,7 @@ class FakeDb {
         
         await this.persist();
         await this.saveToLog('updateOne', item[0].name);
-        return {updated: item[0]};
+        return {updated: item};
     };
 
     async delete(nameOrId) {
