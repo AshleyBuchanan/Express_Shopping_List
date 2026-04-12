@@ -208,5 +208,40 @@
     "name": "potatoes",
     "price": ".89",
     "id": "7917f23c-3379-4a97-952e-2eedcc45ae3b"
+  },
+  {
+    "name": "pickles",
+    "price": "3.89",
+    "id": "1b41d94a-0160-4bab-976d-70403e5d322d"
+  },
+  {
+    "name": "onions",
+    "price": "1.99",
+    "id": "617419f7-301e-4616-abd3-89f0df591dc9"
+  },
+  {
+    "name": "chillies",
+    "price": ".87",
+    "id": "b2750985-6b64-453d-85df-6149aa5e6c56"
+  },
+  {
+    "name": "oranges",
+    "price": "1.55",
+    "id": "008ca41d-77b4-4535-ab4e-140177a48444"
+  },
+  {
+    "name": "apples",
+    "price": "2.55",
+    "id": "8fd780c1-437b-4159-8eec-3cafa65ca687"
+  },
+  {
+    "name": "grapes",
+    "price": "3.87",
+    "id": "adf2dec3-ddf9-4f27-acbc-6dba1a052e5e"
+  },
+  {
+    "name": "mehti",
+    "price": ".56",
+    "id": "925b5ce7-e70c-41c6-aadf-00e1f2fbd7e7"
   }
 ]

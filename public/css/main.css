@@ -163,9 +163,13 @@ main {
     scrollbar-width: none;
 }
 
-.add-btn, .add {
+.add-btn, .submit-btn {
     color: var(--highlight-color-2);
     text-shadow: 0 0 10px hsla(0, 0%, 100%, .5);
+}
+
+.off {
+    display: none;
 }
 
 .new:hover {
@@ -180,9 +184,9 @@ main {
     /* height: 52px; */
     display: none;
     width: 290px; /* for now this will do */
-    position: absolute;
-    top: -8px;
-    left: -8px;
+    position: fixed;
+    /* top: -8px;
+    left: -8px; */
     background-color: var(--secondary-color);
     box-shadow: 
         0 20px 40px 5px var(--shadow-color),
